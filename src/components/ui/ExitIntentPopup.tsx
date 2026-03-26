@@ -34,6 +34,7 @@ export const ExitIntentPopup = () => {
           >
             <button
               onClick={() => setIsVisible(false)}
+              aria-label="Close popup"
               className="absolute top-4 right-4 p-2 bg-white/50 hover:bg-white rounded-full text-earth-brown transition-colors z-10"
             >
               <X size={24} />

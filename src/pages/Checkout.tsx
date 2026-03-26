@@ -76,6 +76,7 @@ export const Checkout = () => {
                           <div className="flex items-center border border-brand-200 rounded-lg bg-brand-50">
                             <button
                               onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                              aria-label={`Decrease quantity of ${item.name}`}
                               className="p-2 text-earth-brown hover:text-earth-red transition-colors"
                             >
                               <Minus size={16} />
@@ -83,6 +84,7 @@ export const Checkout = () => {
                             <span className="w-10 text-center font-medium text-earth-brown">{item.quantity}</span>
                             <button
                               onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                              aria-label={`Increase quantity of ${item.name}`}
                               className="p-2 text-earth-brown hover:text-green-600 transition-colors"
                             >
                               <Plus size={16} />

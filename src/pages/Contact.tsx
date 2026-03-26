@@ -43,7 +43,7 @@ export const Contact = () => {
                   <div>
                     <h3 className="font-bold text-earth-brown mb-1">Our Location</h3>
                     <p className="text-earth-brown/70 leading-relaxed">
-                      123 Heritage Lane, Culinary District<br />
+                      123 Heritage Lane<br />
                       Food City, FC 12345
                     </p>
                   </div>
@@ -55,8 +55,8 @@ export const Contact = () => {
                   <div>
                     <h3 className="font-bold text-earth-brown mb-1">Phone Number</h3>
                     <p className="text-earth-brown/70">
-                      +1 (555) 123-4567<br />
-                      +1 (555) 987-6543
+                      +91 7226937033<br />
+                      
                     </p>
                   </div>
                 </li>
@@ -67,8 +67,8 @@ export const Contact = () => {
                   <div>
                     <h3 className="font-bold text-earth-brown mb-1">Email Address</h3>
                     <p className="text-earth-brown/70">
-                      hello@tasteoftradition.com<br />
-                      catering@tasteoftradition.com
+                      neej.butani1603@gmail.com<br />
+                      
                     </p>
                   </div>
                 </li>
@@ -77,7 +77,7 @@ export const Contact = () => {
               <div className="mt-10 pt-8 border-t border-brand-200">
                 <h3 className="font-bold text-earth-brown mb-4">Quick Connect</h3>
                 <a
-                  href="https://wa.me/15551234567"
+                  href="https://wa.me/917226937033"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full px-6 py-4 text-lg font-medium rounded-xl text-white bg-green-600 hover:bg-green-700 transition-colors shadow-md"
@@ -185,7 +185,7 @@ export const Contact = () => {
             <div className="text-center p-12">
               <MapPin className="h-12 w-12 text-earth-red mx-auto mb-4 opacity-50" />
               <p className="text-earth-brown/60 font-medium">Interactive Map Embed Goes Here</p>
-              <p className="text-sm text-earth-brown/40 mt-2">123 Heritage Lane, Culinary District, Food City</p>
+              <p className="text-sm text-earth-brown/40 mt-2">123 Heritage Lane, Food City</p>
             </div>
           </div>
         </div>

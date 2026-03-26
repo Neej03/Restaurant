@@ -21,13 +21,13 @@ export const Footer = () => {
               Bringing the authentic taste of home-cooked meals to your table. Made with love, tradition, and the finest ingredients.
             </p>
             <div className="flex space-x-4 pt-4">
-              <a href="#" className="text-brand-300 hover:text-saffron-500 transition-colors">
+              <a href="#" aria-label="Visit our Facebook page" className="text-brand-300 hover:text-saffron-500 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-brand-300 hover:text-saffron-500 transition-colors">
+              <a href="#" aria-label="Visit our Instagram page" className="text-brand-300 hover:text-saffron-500 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-brand-300 hover:text-saffron-500 transition-colors">
+              <a href="#" aria-label="Visit our Twitter page" className="text-brand-300 hover:text-saffron-500 transition-colors">
                 <Twitter size={20} />
               </a>
             </div>
@@ -62,11 +62,11 @@ export const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 text-brand-300">
                 <Phone size={20} className="shrink-0 text-saffron-500" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 7226937033</span>
               </li>
               <li className="flex items-center space-x-3 text-brand-300">
                 <Mail size={20} className="shrink-0 text-saffron-500" />
-                <span>hello@tasteoftradition.com</span>
+                <span>neej.butani1603@gmail.com</span>
               </li>
             </ul>
           </div>
